@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap';
+
+$card1: hsl(31, 77%, 52%);
+$card2: hsl(184, 100%, 22%);
+$card3: hsl(179, 100%, 13%);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.item{
+    h1, p{
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .card-title, p{
+        margin-bottom: 2rem;
+        margin: 3rem 3rem;
+
+        h1{
+            font-family: 'Big Shoulders Display', cursive;
+            color: hsl(0, 0%, 95%);
+            font-size: 2rem;
+            font-weight: 700;
+        }
+       
+            font-family: 'Lexend Deca', sans-serif;
+        
+    }
+
+    button{
+        font-weight: bold;
+        background-color: hsl(0%, 0%, 95%);
+    }
+
+}
+
+.bg-card1{
+
+    button{
+        color: $card1;
+    }
+    background-color: $card1;
+}
+
+.bg-card2{
+    button{
+        color: $card2;
+    }
+    background-color: $card2;
+}
+
+.bg-card3{
+    button{
+        color: $card3;
+    }
+    background-color: $card3;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body >
+  <div class="flex align-middle w-full h-full ">
+    <div class="container relative my-5 md:absolute  w-11/12 md:w-8/12 text-left ">
+      <div class="
+            grid
+            rounded-xl
+            overflow-hidden
+            shadow-2xl
+            grid-flow-col grid-cols-1 grid-rows-1
+          ">
+        <div class="flex flex-col md:flex-row">
+          <div class="item bg-card1">
+            <div class="card-title">
+              <img src="./images/icon-sedans.svg" alt="Sedans" />
+              <h1 class="mt-12">Sedans</h1>
+            </div>
+            <p class="h-1/4">
+              Choose a sedan for its affordability and excellent fuel
+              economy. Ideal for cruising in the city or on your next road trip.
+            </p>
+            <button class="p-4 hover:bg-gray-300 rounded-3xl ml-12 mt-3/12 mb-28 w-1/2 shadow-lg">
+              Learn more
+            </button>
+          </div>
+  
+          <div class="item bg-card2">
+            <div class="card-title">
+              <img src="./images/icon-suvs.svg" alt="SUV" />
+              <h1 class="mt-12">SUVs</h1>
+            </div>
+  
+            <p class="h-1/4">
+              Take an SUV for its spacious interior, power, and versatility.
+              Perfect for your next family vacation and off-road adventures.
+            </p>
+            <button class=" hover:bg-gray-300 p-4 rounded-3xl ml-12 mt-3/12 mb-28 w-1/2 shadow-lg">
+              Learn more
+            </button>
+          </div>
+  
+          <div class="item bg-card3">
+            <div class="card-title">
+              <img src="./images/icon-luxury.svg" alt="Luxury" />
+              <h1 class="mt-12">Luxury</h1>
+            </div>
+  
+            <p class="h-1/4">
+              Luxury Cruise in the best car brands without the bloated prices.
+              Enjoy the enhanced comfort of a luxury rental and arrive in style.
+            </p>
+  
+            <button class="p-4 hover:bg-gray-300 rounded-3xl ml-12 mt-3/12 mb-28 w-1/2 shadow-lg">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="attribution mt-5 bg-transparent">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+          href="#">Marko</a>.
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>

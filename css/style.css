@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative; }
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.item h1, .item p {
+  color: rgba(255, 255, 255, 0.75); }
+
+.item .card-title, .item p {
+  margin-bottom: 2rem;
+  margin: 3rem 3rem;
+  font-family: 'Lexend Deca', sans-serif; }
+  .item .card-title h1, .item p h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: #f2f2f2;
+    font-size: 2rem;
+    font-weight: 700; }
+
+.item button {
+  font-weight: bold;
+  background-color: #f2f2f2; }
+
+.bg-card1 {
+  background-color: #e38826; }
+  .bg-card1 button {
+    color: #e38826; }
+
+.bg-card2 {
+  background-color: #006970; }
+  .bg-card2 button {
+    color: #006970; }
+
+.bg-card3 {
+  background-color: #004241; }
+  .bg-card3 button {
+    color: #004241; }
